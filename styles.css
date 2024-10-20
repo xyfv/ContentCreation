@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Agatho;
+    src: url(fonts/Agatho_\ Light.otf);
+}
+@font-face {
+    font-family: PS51;
+    src: url(fonts/p5hatty-1.ttf);
+}
+@font-face {
+    font-family: PS5;
+    src: url(fonts/Persona5MenuFontPrototype-Regular.ttf);
+}
+@font-face {
+    font-family: Magazine;
+    src: url(fonts/Magazine-Cutouts-Font.ttf);
+}
+
+.navbar{
+    width: 100%;
+    margin: -90px 0px 0px 0px ;
+    padding: 10px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 30px;
+}
+.navbar ul li a{
+    font-family: PS5;
+    text-decoration: none;
+    color: rgb(165, 11, 11);
+    text-transform: uppercase;
+    font-size: 30px;
+    transition: all 500ms;
+}
+.navbar ul li a:hover {
+    font-size:40px;
+    font-size-adjust: 20px;
+}
+
+.Logo{
+    height: 60px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.Banner {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(247, 116, 9, 0.075),rgba(0, 0, 0, 0.034)), url(https://i.pinimg.com/control/564x/c1/91/76/c1917683dd9e158331d601fe16646e79.jpg);
+    background-size: contain;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.title {
+    color: #ffffff;
+    font-family: Magazine;
+    font-size: 60px;
+    letter-spacing: 17px;
+    text-align: center;
+    margin: 180px 0px 0px 0px;
+}   
+
+section {
+    min-height: 100vh;
+    color: #ffffff;
+    font-family: Agatho;
+    padding: 100px 350px 200px 350px;
+    font-size: 30px;
+    font-family: Agatho;
+
+}
+
+.Skibidi {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+
+.show {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.footer {
+    font-family: PS51;
+    color: #000000;
+    font-size: 40px;
+    background-color: rgb(165, 11, 11);
+    text-align: center;
+    padding: 10px;
+    margin: -8px;
+}
